@@ -2,6 +2,7 @@ import React from "react";
 import "./Portfolio.css";
 import * as SiIcons from "react-icons/si";
 import diet from "../../Images/dietapp.png";
+import gmail from "../../Images/gmailapp.png";
 import ecom from "../../Images/ecommerceapp.png";
 
 function Portfolio() {
@@ -162,7 +163,7 @@ function Portfolio() {
           </div>
         </div>
         <div className="card" data-aos="zoom-in-up">
-          <img src={diet} className="card-img-top" alt="..." />
+          <img src={gmail} className="card-img-top" alt="..." />
           <div className="title_heading">
             <h5 className="card-title">GMail Clone</h5>
           </div>
