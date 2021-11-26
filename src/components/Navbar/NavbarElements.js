@@ -46,8 +46,7 @@ export const Image = styled.img`
   width: 50px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
-    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  box-shadow: rgba(59, 190, 60, 0.8) 0px 0px 0px 3px;
 `;
 export const MobileIcon = styled.div`
   display: none;

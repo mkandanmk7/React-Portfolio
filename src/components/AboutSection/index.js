@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
-import Me from "../../Images/profile.jpg";
-import resume from "../../Images/Muthu_Manikandan_T_Dev.pdf";
+import Me from "../../Images/resumeProfile.jpg";
+import resume from "../../Images/Muthu_Manikandan_T_web.pdf";
 import { InfoContainer } from "./AboutElements";
 function About() {
   return (

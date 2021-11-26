@@ -10,14 +10,14 @@ import {
   NavLinks,
 } from "./NavbarElements";
 import { FaBars } from "react-icons/fa";
-import Logo from "../../Images/profile.jpg";
+import Me from "../../Images/resumeProfile.jpg";
 function Navbar({ toggle }) {
   return (
     <>
       <Nav>
         <NavbarContainer>
           <NavLogo to="/">
-            <Image src={Logo} />
+            <Image src={Me} />
           </NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
